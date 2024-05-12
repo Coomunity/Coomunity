@@ -1,0 +1,38 @@
+.background_login{
+    display: flex;
+    /* justify-content: center; */
+
+    justify-items: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    text-align: center;
+    background-color: white;
+
+    padding: 20px;
+
+    height:100vh;
+    
+}
+
+.text_login{
+    margin-bottom: 30px;
+}
+
+.logo_container{
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    margin-top:150px;
+}
+
+.login_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 10px;
+
+}

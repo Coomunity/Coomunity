@@ -1,0 +1,169 @@
+.navbar a {
+  text-decoration-line: none;
+  color: black;
+  font-size: 14px;
+}
+
+.navbar p {
+  font-size: 12px;
+  margin: 25px 0 0 4px;
+}
+button {
+  color: #898888;
+  border: none;
+  background-color: white;
+  font-size: 13px;
+  cursor: pointer;
+}
+.navbar {
+  width: 100vw;
+  position: relative;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 110px;
+  margin-left: 7%;
+}
+.main-logo {
+  position: absolute;
+  margin-left: 7%;
+}
+.bar-body {
+  position: absolute;
+  width: 100vw;
+  height: 55px;
+  background-color: white;
+  margin-top: 38px;
+}
+.sub-logo {
+  position: relative;
+  margin: 19px 0px 19px 19px;
+}
+
+.links {
+  position: relative;
+  width: 100px;
+  float: left;
+  padding: 14px 8px;
+  text-align: center;
+}
+
+.noti {
+  width: 30px;
+}
+
+#border {
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: #cfcfcf;
+}
+#space {
+  float: left;
+  width: 60px;
+  padding: 15px 8px 15px 0px;
+  margin-left: 7%;
+}
+#right{
+  float: right;
+}
+
+.dropDown {
+  position: relative;
+  width: 100px;
+  height: fit-content;
+  float: left;
+  padding: 15px 8px 15px 8px;
+  text-align: center;
+  list-style:none;
+
+  &:hover .dropDownMenu{
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(+15px);
+  }
+
+  .dropDownMenu {
+    text-align: left;
+    background: #ffffff;
+    position: absolute;
+    width: 190px;
+    top: 30px;
+    right: 0;
+    font-size: 14px;
+    z-index: 9;
+    list-style:none;
+  
+    /*opacity와 visibility 주석처리하면 레이아웃 확인하며 수정하기 편함*/
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 8px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(0);
+    transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.3s;
+    padding: 10px;
+  }
+}
+
+.drop-links{
+  list-style:none;
+  padding-inline-start: 5px;
+}
+
+.menu a{
+  display: block;
+  margin: 7px 4px 4px 4px;
+}
+
+.profile-container {
+  margin: 10px 0 30px 0;
+  padding-inline-start: 5px;
+}
+
+.profile-container p{
+  margin-top: 13px;
+}
+
+.name {
+  font-size: 13.5px;
+}
+
+.profile-img {
+  position: absolute;
+  background: #dddddd;
+  width: 50px;
+  height: 50px; 
+  border-radius: 70%;
+  overflow: hidden;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  object-fit: fill;
+}
+
+.profile-text {
+  margin-left: 60px;
+  list-style: none;
+}
+
+/*hide들은 검색창 추가 시 수정될 예정*/
+@media (max-width: 697px) {
+  .hide {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .hide2 {
+    display: none;
+  }
+}
+@media (max-width: 325px) {
+  .hide3 {
+    display: none;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "coomunity-backend",
+  "version": "1.0.0",
+  "description": "coomunity backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "express": "^4.18.2"
+  },
+  "author": "",
+  "license": "ISC"
+}

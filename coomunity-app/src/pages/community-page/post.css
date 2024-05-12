@@ -1,0 +1,91 @@
+.post_background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+.post_setting{
+    display: flex;
+    flex-direction:column;
+    background-color: white;
+
+    width: 1100px;
+    height: 800px;
+}
+
+.post_title{
+    display: flex;
+    background-color: white;
+    margin-left: 30px;
+}
+
+.post_username{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-left: 40px;
+}
+
+.post_img{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.post_content{
+    display: flex;
+    align-items: center;
+    background-color: white;
+
+    margin-left: 10px;
+    font-size: 15px;
+
+    white-space: pre-line; /* 줄바꿈 적용 */
+}
+
+.division-line {
+    width: 100%;
+    border-top: 1px solid #a6a6a6;
+    margin: 7px auto;
+}
+
+.post-comments,
+.post-like {
+    font-size: 11px;
+    margin-left: auto; /* 오른쪽 정렬 */
+    margin-right: 5px;
+}
+
+.post_info_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    margin-left:750px;
+}
+
+.post_profile_img{
+    display: flex;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.backtoboard_button{
+    display: flex;
+    background-color: white;
+    margin-left: 900px;
+    margin-top:200px;
+}
+
+.posting_date{
+    display: flex;
+    background-color: white;
+
+    font-size: 12px;
+    color:#a6a6a6;
+    margin-left: 10px;
+}

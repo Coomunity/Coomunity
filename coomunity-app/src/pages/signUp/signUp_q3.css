@@ -1,0 +1,77 @@
+.signup_question_background{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    text-align: center;
+    background-color: white;
+
+    padding:20px;
+
+    height: 100vh;
+}
+
+.signup_question{
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+
+    justify-items: center;
+    align-items: center;
+    background-color:white;
+}
+
+.signup_question_radio_q5 {
+    display: flex;
+    background-color: white;
+    text-align: left;
+    
+    width: 450px;
+    margin: 60px;
+}
+
+.signup_question_radio_q3{
+    display: flex;
+    background-color: white;
+    text-align: left;
+    
+    width: 250px;
+    margin: 60px;
+}
+
+.signup_question_select{
+    display: flex;
+    text-align: left;
+    
+    width: 120px;
+    margin-left: 50px;
+}
+.signup_question_tech{
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.signup_question_tech_container{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.signup_question_tech_text{
+    width: 250px;
+}
+    
+.signup_question_text{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.signup_question_button{
+    margin: 50px;
+}

@@ -1,0 +1,246 @@
+.myPage{
+    width: 100vw;
+    overflow-x: hidden;
+}
+/* 중앙 정렬 */
+.my_center{
+    min-width: 500px;
+    position: relative;
+    display: block;
+}
+/* 방문자 수 */
+.my_visit {
+    max-width: 1100px;
+    width: 80%;
+    margin: 25px auto; /* 가운데 정렬 */
+    position: relative;
+    font-size: 14px;
+}
+/* 편집 버튼 */
+.myPage_setting {
+    font-size: 11px;
+    color: #898888;
+    float: right;
+}
+/* 왼쪽 오른쪽 영역 담음 */
+.my_contents {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto; /* 가운데 정렬 */
+    position: relative;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.division-line {
+    width: 92%;
+    border-top: 1px solid #a6a6a6;
+    margin: 7px auto;
+}
+/* 왼쪽 영역 컨테이너 */
+.my_left {
+    width: calc(100% - 835px); /* 화면 크기에 따라 너비 계산 */
+    max-width: 340px;
+    min-width: 260px;
+    height: 680px;
+    margin-bottom: 20px;
+
+    display: inline-block;
+    text-align: center;
+
+    border-radius: 32px;
+    border: 2px solid #8fb6f0;
+
+    /* 내부 그림자 */
+    /* x, y, blur, 색 */
+    box-shadow: 0 3px 3px rgba(101, 101, 101, 0.3), 0 1px 3px rgba(101, 101, 101, 0.3);
+}
+/* 오른쪽 영역 컨테이너 */
+.my_right {
+    width: calc(100% - 345px);
+    max-width: 790px;
+    min-width: 490px;
+    height: 680px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 20px;
+
+    border-radius: 32px;
+    border: 2px solid #8DB4EF;
+
+    /* 내부 그림자 */
+    /* x, y, blur, 색 */
+    box-shadow: 0 3px 3px rgba(101, 101, 101, 0.3), 0 1px 3px rgba(101, 101, 101, 0.3);
+}
+/* 프로필 이미지 컨테이너 */
+.my_profile-img {
+    display: inline-block;
+    background: #ededed;
+    width: 210px;
+    height: 200px;
+    border-radius: 30%;
+    margin-top: 30px;
+    overflow: hidden;
+}
+/* 프로필 이미지 */
+.my_img {
+    max-width: 100%;
+    height: 200px;
+}
+/* 왼쪽영역 정보들 */
+.my_info {
+    text-align: left;
+    margin: 30px 0 0 35px;
+    position: relative;
+}
+.my_name {
+    font-size: 14px;
+    font-weight: bold;
+}
+.my_tier {
+    margin-left: 15px;
+    font-size: 13.5px;
+}
+/* 개인정보 수정 버튼 */
+.my_info_setting {
+    font-size: 11px;
+    position: absolute;
+    right: 12%;
+    bottom: 2px;
+    padding: 0;
+}
+/* 팔로워 목록 */
+.my_follow-container {
+    text-align: left;
+    height: fit-content;
+    width: 230px;
+    margin: 20px 0 20px 35px;
+    font-size: 13.5px;
+    cursor: pointer;
+}
+.follow_num {
+    margin-right: 11px;
+}
+
+/*소개글*/
+.my_introduce{
+    width: 100%;
+    height: 140px;
+    line-height: 20px;
+    white-space: pre-wrap;  /*넘치면 줄바꿈*/
+    font-size: 12.5px;
+    text-align: left;
+    overflow: hidden;
+
+    /* 7줄 이상은 ...표시 -> 글자수 제한 받을 것이다*/
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+/* 왼쪽 게시판 영역 */
+.my_post-info {
+    width: calc(100% - 47px);
+    max-width: 270px;
+    min-width: 210px;
+    height: 127px;
+    margin-top: 20px;
+    padding: 11px 0 0 0;
+
+    display: inline-block;
+    text-align: left;
+    font-size: 13.5px;
+
+    border-radius: 10px;
+    border: 2px solid none;
+    background-color: #cfe2ff;
+}
+.my_post-name {
+    margin: 0 0 3px 13px;
+    list-style: none;
+}
+.my_post-num {
+    margin-left: 15px;
+}
+/* 오른쪽 상단 영역 */
+.rightTop-box {
+    height: 285px;
+    margin: 10px;
+}
+/* 기술 스택 */
+.my_techstacks{
+    margin: 30px;
+    height: 225px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.my_techstacks::-webkit-scrollbar {
+    width: 7px;  /* 스크롤바의 너비 */
+}
+
+.my_techstacks::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #3b8aff; /* 스크롤바의 색상 */
+    
+    border-radius: 10px;
+}
+.my_techstacks::-webkit-scrollbar-track {
+    background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+}
+
+/* 오른쪽 하단 영역 */
+.rightBottom-box {
+    height: 370px;
+    margin: 10px;
+    font-size: 13.5px;
+    overflow: hidden;
+}
+/* 제목 */
+.my_post-type {
+    font-size: 13px;
+    margin-left: 35px;
+    font-weight: 600;
+}
+/* 최근 게시글 영역 */
+.my_current-post{
+    max-width: 770px;
+    min-width: 450px;
+    width: 100%; /* 초기에 전체 너비로 설정 */
+}
+.my_postBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.my_post_btn{
+    margin-left: 15px;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+@media (max-width: 965px) {
+    .my_left {
+        display: none;
+    }
+    .my_right{
+        margin-left: 0;
+        width: calc(100% - 95px); /* 화면 크기에 따라 너비 계산 */
+    }
+
+    .my_contents {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+}
+@media (max-width: 1500px) {
+    .myPage_setting {
+        right: 12%;
+    }
+}
+@media (max-width: 1350px) {
+    .myPage_setting {
+        right: 10%;
+    }
+}

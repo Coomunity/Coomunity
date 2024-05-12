@@ -1,0 +1,32 @@
+.background_signupprofile{
+    display: flex;
+    justify-content: center;
+
+    justify-items: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    text-align: center;
+    background-color: white;
+    height: 100vh;
+    
+}
+
+.signUp_center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+
+    margin: 50px;
+}
+
+.signUp_profile_text{
+    display:flex;
+
+    background-color: white;
+    margin: 20px;
+}

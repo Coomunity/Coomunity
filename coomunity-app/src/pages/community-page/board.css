@@ -1,0 +1,139 @@
+.board_toolbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.board_select{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-right: 550px;
+}
+
+.board_select_img{
+    width: 130px;
+    justify-content: center;
+}
+
+.board_background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+    padding: 50px;
+}
+
+.board_posting{
+    display: flex;
+    background-color: white;
+    margin-left:900px;
+    margin-top: 120px;
+}
+
+.board_search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.board_postlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 20px;
+    width: 1300px;
+    height:800px;
+
+    padding-top:50px;
+}
+
+.board_postlist::-webkit-scrollbar {
+    width: 7px;  /* 스크롤바의 너비 */
+}
+
+.board_postlist::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #3b8aff; /* 스크롤바의 색상 */
+    
+    border-radius: 10px;
+}
+.board_postlist::-webkit-scrollbar-track {
+    background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+}
+
+.posting_background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+    width: 1000px;
+    margin: 20px;
+}
+
+.text_area{
+    display: flex;
+    background-color: white;
+
+    width: 900px;
+    height: 400px;
+
+    margin-top:10px;
+}
+
+.posting_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+    margin-right: 850px;
+}
+
+.posting_tag{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    background-color: white;
+    margin-right: 300px;
+    width: 600px;
+}
+
+.posting_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+    margin-top: 20px;
+}
+
+.posting_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 900px;
+}
+
+.posting_img{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin-right: 700px;
+    margin-top: 20px;
+    background-color: white;
+    width: 200px;
+}
