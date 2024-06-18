@@ -61,7 +61,7 @@
 | 23.7~23.8 | ☑️ | Develop platform -> Front & Backend, Develop WebSocket |
 | 23.9~23.11 | ☑️ | Develop prompt, Develop Python tutor, Develop Web IDE |
 | 23.12 | ☑️ | Test & Debug |
-| 24.1 ~ 24.6 |   | Documentation, Marketing |
+| 24.1 ~ 24.6 | ☑️ | Documentation, Marketing |
 </div>
 
 <br/><br/><br/>
